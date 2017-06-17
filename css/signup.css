@@ -1,0 +1,145 @@
+
+
+body {
+    
+    font-size: 16px; 
+    color: #000;
+}
+.header_title {
+    color: #000;
+    padding-left: 1%;
+
+}
+#lean_overlay {
+
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+#modal_trigger {
+    margin: 2rem 0 0 2rem;
+    width: 8rem; 
+    text-align: center;
+    border-radius: 5%;
+    display: inline;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 3rem 0 0 5rem;
+}
+
+.btn {
+    padding:10px 20px; 
+    background: #F4F4F2;
+}
+.btn_red {
+    background: #ED6347; 
+    color: #FFF;}
+
+.btn:hover {
+    background: #E4E4E2;
+}
+.btn_red:hover {
+    background: #C12B05;
+}
+
+a.btn {
+    color:#666; 
+    text-align: 
+    center; 
+    text-decoration: none;
+}
+a.btn_red {
+    color: #FFF;
+}
+
+.one_half {
+    width:50%; 
+    display: block; 
+    float:left;
+}
+.one_half.last {
+    width:45%; 
+    margin-left:5%;
+}
+
+/* Popup Styles*/
+.popupHeader {
+    font-size:16px; 
+    text-transform: uppercase;
+}
+.popupHeader {
+    background:#F4F4F2; 
+    position:relative; 
+    padding:10px 20px; 
+    border-bottom:1px solid #DDD; 
+    font-weight:bold;
+}
+.popupHeader .modal_close {
+    position: absolute; 
+    right: 0; top:0; 
+    padding:10px 15px; 
+    background:#E4E4E2; 
+    cursor: pointer; 
+    color:#aaa; 
+    font-size:16px;
+}
+
+.popupBody {
+    padding: 3rem;
+    color: #000;
+}
+
+
+/* User Register Form */
+.user_register {
+    display: block;
+}
+.user_register label {
+    display: block; 
+    margin-bottom:5px;
+    color: #000;
+    font-size: 1rem;
+}
+.user_register input[type="text"], 
+.user_register input[type="email"], 
+.user_register input[type="password"] {
+    display: block; 
+    width:90%; 
+    padding: 10px; 
+    border:1px solid #DDD; 
+    color:#000;
+}
+.user_register input[type="checkbox"] {
+    float:left; 
+    margin-right:5px;
+}
+.user_register input[type="checkbox"]+label {
+    float:left;
+}
+
+.user_register .checkbox {
+    margin-bottom: 10px; 
+    clear: both; 
+    overflow: hidden;
+}
