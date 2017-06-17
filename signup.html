@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>  
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>AbbyLovesFood</title>
+<link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>  
+<link rel='stylesheet' href='assets/css/signup.css'/>  
+<script src="sample-registration-form-validation.js"></script>  
+</head>  
+<body onload="document.registration.userid.focus();">  
+<h1>Sign Up!</h1>  
+<p>Want more Recipes? Join our mailing list!</p>  
+<form name='registration' onSubmit="return formValidation();">  
+<ul>  
+<li><label for="userid">First Name:</label></li>  
+<li><input type="text" name="firstname" size="12" /></li>  
+<li><label for="passid">Last Name:</label></li>  
+<li><input type="password" name="lastname" size="12" /></li>    
+<li><label for="email">Email:</label></li>  
+<li><input type="text" name="email" size="50" /></li>  
+<li><input type="submit" name="submit" value="Submit" /></li>  
+</ul>  
+</form>  
+</body>  
+</html>  

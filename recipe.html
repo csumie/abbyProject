@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <title>Abby Loves Food</title>
+        <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.leanModal.min.js"></script>
+        <script src="assets/js/modernizr.custom.js"></script>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="assets/css/signup.css">
+        <link rel="stylesheet" href="assets/css/default.css" />
+        <link rel="stylesheet" href="assets/css/component.css" />
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script src="assets/js/modernizr.custom.js"></script>
+    </head>
+    
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="title__wrapper">
+                <img src="assets/images/logo.png" class="logo">
+                <!-- <h1 class="header__title">AbbyLovesFood</h1> -->
+                <nav class="menu hvr-effect">	<a href="index.html" class="menu__link hvr-effect">
+				Home
+				</a>
+	<a href="https://www.pinterest.com/search/pins/?q=acai+bowls+recipe" class="menu__link hvr-effect">
+				Inspiration</a>
+	<a href="recipe.html" class="menu__link hvr-effect">
+				Recipes</a>	
+                </nav>
+            </div>
+        </header>
+        <!--body-->
+        <ul class="grid cs-style">
+            <li>
+                <figure>
+                    <img src="assets/images/acai_classic_bowl_scaled.png" alt="classic a&ccedil;ai bowl">
+                    <figcaption>
+                        	<h3>Classic A&ccedil;ai Bowl</h3>
+	<a href="classic.html">Get Recipe</a>
+
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="assets/images/aida_mollenkamp_acai_bowl_scaled.png" alt="tropical a&ccedil;ai bowl">
+                    <figcaption>
+                        	<h3>Tropical A&ccedil;ai Bowl</h3>
+	<a href="tropical.html">Get Recipe</a>
+
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="assets/images/acaiavocado-bowl_scaled.png" alt="chocolate a&ccedil;ai bowl">
+                    <figcaption>
+                        	<h3>Chocolate A&ccedil;ai Bowl</h3>
+	<a href="chocolate.html">Get Recipe</a>
+
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="assets/images/vegan_bowl_scaled.png" alt="vegan a&ccedil;ai bowl">
+                    <figcaption>
+                        	<h3>Vegan A&ccedil;ai Bowl</h3>
+	<a href="vegan.html">Get Recipe</a>
+
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+        </div>
+        <!-- Footer -->
+        <section class="footer">
+            <div class="footer__wrapper">
+                <div class="container">	<span>Love Our Recipes?</span>
+	<a id="modal_trigger" href="#modal" class="btn">Sign Up!</a>
+
+                    <div id="modal" class="popupContainer" style="display:none;">
+                        <header class="popupHeader">	<span class="header_title">Sign Up!</span>
+	<span class="modal_close"><i class="fa fa-times"></i></span>
+
+                        </header>
+                        <section class="popupBody">
+                            <!-- Register Form -->
+                            <div class="user_register">
+                                <form>
+                                    <label>Full Name</label>
+                                    <input type="text" />
+                                    <br />
+                                    <label>Email Address</label>
+                                    <input type="email" />
+                                    <br />
+                                    <label>Password</label>
+                                    <input type="password" />
+                                    <br />
+                                    <div class="checkbox">
+                                        <input id="send_updates" type="checkbox" />
+                                        <label for="send_updates">Send me more Recipes!</label>
+                                    </div>
+                                    <div class="action_btns">
+                                        <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a>
+                                        </div>
+                                        <div class="one_half last"><a href="#" class="btn btn_red">Submit</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $("#modal_trigger").leanModal({
+                        top: 200,
+                        overlay: 0.6,
+                        closeButton: ".modal_close"
+                    });
+
+                    $(function() {
+
+                        // Calling Register Form
+                        $("#register_form").click(function() {
+                            $(".header_title").text('Register');
+                            return false;
+                        });
+
+                    })
+                </script>
+                <div class="social__media">
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-pinterest"></i></a>
+                    <a href=""><i class="fa fa-twitter-square"></i></a> 
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
